@@ -1,0 +1,30 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+  }
+  .nav.open .nav-list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(241, 241, 241, 1);
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+  }
+  .nav-button {
+    position: fixed;
+    z-index: 9;
+    top: 36px;
+    right: 10px;
+  }
+}
